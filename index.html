@@ -40,7 +40,7 @@ var options = {
     plugins: {
         record: {
             audio: false,
-            video: true,
+            video: { facingMode: { exact: "environment" },
             maxLength: 60,
             debug: true,
             videoEngine: 'recordrtc'
